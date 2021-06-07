@@ -1,0 +1,95 @@
+* {
+    box-sizing: border-box;
+    color: white;
+}
+
+#page {
+    display: flex;
+    flex-wrap: wrap;
+    font-size: 1.2em;
+    text-align: center;
+    text-transform: uppercase;
+}
+
+#article {
+    flex-basis: 60%;
+    background-color: lightskyblue; 
+}
+
+#header,
+footer {
+    height: 40px;
+    width: 100%;  
+} 
+
+
+#right {
+    flex-basis: 20%;
+    background-color: pink;
+}
+
+#left {
+    flex-basis: 20%;
+    background-color: green; 
+}
+
+header {
+    background-color: red;
+}
+
+footer {
+    background-color: purple;
+}
+
+
+
+@media (max-width: 992px) and (min-width: 768px) {
+    #article {
+        flex-basis: 80%;
+        order: 2;
+    }
+
+    #right {
+        flex-basis: 20%;
+        order: 3;
+    }
+
+    #left {
+        flex-basis: 100%;
+        order: 4;
+    }
+
+    footer {
+      order: 5;
+    }
+}
+   
+
+@media (max-width: 768px) {
+    #header,
+    #article,
+    #left,
+    #right,
+    footer {
+        flex-basis: 100%; 
+    }
+
+    #header {
+        order: 0;
+    }
+    #article {
+        order: 1;
+    }
+
+    #left {
+        order: 2;
+    }
+
+    #right {
+        order: 3;
+    }
+
+    footer {
+        order: 4;
+    }
+}
