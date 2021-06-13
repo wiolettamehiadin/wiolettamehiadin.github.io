@@ -306,6 +306,7 @@ footer {
 @media (max-width: 1200px) {
     .container {
         max-width: 992px;
+        margin: auto;
     }
 }
 
@@ -322,7 +323,7 @@ footer {
 @media (max-width: 768px) {
 
     .container {
-        max-width: 95%;
+        max-width: 100%;
     }
 
     .portfolio-wrapper .portfolio-item {
@@ -331,9 +332,12 @@ footer {
 }
 
 @media (max-width: 480px) {
-    .topbanner .topbannerinner h1 {
-        font-size: 3em;
+    .topbanner, .topbannerinner {
+        font-size: 1em;
     }
+   #mainheader {
+       font-size: 3em;
+   }
 
     .aboutme .aboutmeimg {
         max-height: 200px;
