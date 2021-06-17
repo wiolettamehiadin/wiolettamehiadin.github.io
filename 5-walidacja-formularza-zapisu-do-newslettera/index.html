@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="css/style.css/">
+</head>
+<body>
+    
+
+    <form id="form" action="">
+
+        <ul id="errors"></ul>
+
+        <label for="name">Imię i Nazwisko:</label>
+        <input type="text" name="name" id="name" placeholder="Jan Nowak">
+        <br /> 
+        <br />  
+        <label for="email">E-mail:</label>
+        <input type="email" name="email" id="email" placeholder="jan@info.pl">
+        <br />
+        <br /> 
+        <input type="checkbox" name="zgoda-1" id="zgoda-1">
+        <label for="zgoda-1">Wyrazam zgode - 1</label>
+        <br />
+        <br /> 
+        <input type="checkbox" name="zgoda-2" id="zgoda-2">
+        <label for="zgoda-2">Wyrazam zgode - 2</label>
+        <br />
+        <br /> 
+        <input type="checkbox" name="zgoda-all" id="zgoda-all">
+        <label for="zgoda-all">Wyrazam wszystkie zgody</label>
+        <br />
+        <br /> 
+        <button type="submit" id="sign-up">Zapisz do Newsletter'a</button>
+    </form>
+
+
+
+    <script src="js/script.js"></script>
+</body>
+</html>
