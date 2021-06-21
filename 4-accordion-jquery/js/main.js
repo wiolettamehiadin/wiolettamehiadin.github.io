@@ -15,12 +15,7 @@ $(document).ready(function(){
         $(this).addClass('open');   
         $(this).find('.accordion-content').slideDown();  //jezeli nie ma klasy open- slide down
     }
-
-
-
-
-  });
-
+    });
 });
 
 
