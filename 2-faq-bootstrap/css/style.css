@@ -1,0 +1,45 @@
+body {
+    background-color: rgb(240, 230, 230);
+}
+
+hr {
+    margin-left: auto;
+    margin-right: auto;
+    width: 40%;
+}
+
+h1 {
+    padding-top: 50px;
+}
+
+.accordion-button {
+    background-color: pink;
+    justify-content: center;
+    text-align: center;
+    color: yellow;
+}
+
+.accordion-button::after {
+    display: none;
+}
+
+.accordion-button:hover, :visited { 
+    text-decoration: underline;
+  
+}
+
+.accordion-button:not(.collapsed) {
+    background-color: pink;
+}
+
+.accordion-flush .accordion-item .accordion-button {
+    color: yellow;
+}
+
+.my-accordion {
+    text-align: center;
+}
+
+.accordion-header {
+    text-align: center;
+}
