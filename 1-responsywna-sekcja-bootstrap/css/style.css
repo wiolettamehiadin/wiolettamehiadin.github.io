@@ -1,0 +1,33 @@
+.main-section {
+
+    width: 100%;
+    margin-top: 50px;
+}
+
+h1 {
+    color: gray;
+    text-align: center;
+}
+
+
+hr {
+    margin-left: auto;
+    margin-right: auto;
+    width: 40%;
+}
+
+h2 {
+    padding-top: 20px;
+}
+
+.icon-background {
+    color: salmon;
+}
+
+.icon-colour {
+color: white;
+}
+
+.row {
+    padding-top: 20px;
+}
