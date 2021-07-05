@@ -1,0 +1,36 @@
+/* Grids- column sections*/
+
+.row {
+    @include flexbox;
+}
+
+
+
+.col {
+    width: 100%;
+}
+
+/*Services will display in 2 columns on medium resolution*/
+@media all and (min-width: $medium) {
+    .col-md-50p {
+    width: 50%;
+    }
+
+
+    .col-md-33p {
+        width: 33.33%;
+    }
+
+    .col-md-66p {
+        width: 66.66%;
+    }
+}
+
+
+
+/*Services will display in 4 columns on large resolution*/
+@media all and (min-width: $large) {
+    .col-lg-25p {
+    width: 25%;
+    }
+}

@@ -1,0 +1,27 @@
+/* Font Family */
+
+$font-family-main: 'Roboto', sans-serif;
+$font-family-secondary: 'Bellota', cursive;
+
+
+/* Element Colours */
+
+$color-main-bg: #1ba4ce;
+$color-accent-font: #473452;
+$color-accent-btn: #30383b;
+$color-font-main: #888888;
+$color-font-secondary: #555;
+
+/* Containers - view on mobile/tablet/desktop  */
+
+$small-container: 100%;
+$large-container: 960px;
+$extra-large-container: 1140px;
+
+/* Mobile breakpoints for @media */
+
+$extra-small: 480px;
+$small: 576px;
+$medium: 768px;
+$large: 992px;
+$extra-large: 1200px;

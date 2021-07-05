@@ -52,10 +52,11 @@
 		}
 
 		h1 {
-			font-size: $base-font-size + 32;
+			font-size: 38px;
 			margin-top: $baseline;
 			margin-bottom: $baseline;
 			text-transform: uppercase;
+			letter-spacing: 4px;
 		}
 
 		p {
@@ -64,9 +65,10 @@
 		}
 
 		.btn-primary {
-			margin-top: $baseline * 2;
-			font-size: $base-font-size - 2;
+			margin-top: 56px;
+			font-size: 22px;
 			padding: 10px 12px;
+			
 		}
 	}
 
@@ -89,7 +91,7 @@
 			}
 
 			h1 {
-				font-size: $base-font-size + 20;
+				font-size:38px;
 				margin-top: $baseline;
 				margin-bottom: $baseline;
 			}
@@ -126,7 +128,7 @@
 			}
 
 			h1 {
-				font-size: $base-font-size + 10;
+				font-size: 38px;
 				margin-top: $baseline;
 				margin-bottom: $baseline;
 			}
@@ -163,9 +165,10 @@
 			}
 
 			h1 {
-				font-size: $base-font-size + 5;
+				font-size: $base-font-size + 22;
 				margin-top: $baseline * 0.75;
 				margin-bottom: $baseline * 0.75;
+				letter-spacing: 4px;
 			}
 
 			p {
@@ -174,7 +177,7 @@
 			}
 
 			.btn-primary {
-				margin-top: $baseline * 0.5;
+				margin-top: $baseline * 0.5 +24px;
 				font-size: $base-font-size - 2;
 				padding: 5px 6px;
 			}
@@ -242,7 +245,7 @@
 			}
 
 			h1 {
-				font-size: $base-font-size * 0.75;
+				font-size: 38px;
 				margin-top: $margin-none;
 				margin-bottom: $margin-none;
 			}

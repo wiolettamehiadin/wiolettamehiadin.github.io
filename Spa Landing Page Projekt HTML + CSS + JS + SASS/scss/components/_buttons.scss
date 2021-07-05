@@ -1,0 +1,40 @@
+%btn {
+    border-radius: 30px;
+    display: inline-block;
+    padding: 15px 35px;
+    text-transform: uppercase;
+    text-decoration: none;
+    border: 0;
+    color: #fff;
+}
+
+.btn-primary {
+    @extend %btn;
+    background-color: $color-main-bg;
+
+    &:hover {
+        background-color: $color-accent-btn;
+    }
+}
+
+.btn-secondary {
+    @extend %btn;
+    background-color: $color-accent-btn;
+
+    &:hover {
+        background-color: $color-main-bg;
+    }
+}
+
+
+.btn-form {
+    @extend %btn;
+    background-color: #fff;
+    color: $color-font-secondary;
+    font-weight: 700;
+
+    &:hover {
+        background-color: $color-accent-font;
+        color: #fff;
+    }
+}

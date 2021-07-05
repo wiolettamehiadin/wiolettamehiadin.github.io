@@ -1,0 +1,71 @@
+/* 
+style.css - Main Theme Styles
+---------------------------------
+****** TABLE OF CONTENTS: *****
+---------------------------------
+1.0 - style.scss
+	1.1 - @import(s) 
+----------------------------------
+2.0 - base
+    2.1 - global.scss        
+    2.2 - normalize.scss
+----------------------------------
+3.0 - components
+	3.1 - buttons.scss
+    3.2 - fonts.scss
+    3.3 - infobox.scss
+    3.4 - inputs.scss
+----------------------------------
+4.0 - layout
+    4.1 - about.scss
+    4.2 - footer.scss
+    4.3 - header.scss
+    4.4 - navbar.scss
+    4.5 - grid.scss
+    4.6 - appointment.scss
+    4.7 - team.scss
+    4.8 - contacts.scss
+    4.9 - feature.scss
+----------------------------------
+5.0 - utils
+    5.1 - mixins.scss
+    5.2 - variables.scss
+----------------------------------
+
+----------------------------------
+*** End of TABLE OF CONTENTS *** 
+----------------------------------
+*/
+
+
+
+/*----------------------------------------------------------------------------------*/
+
+
+/* utils - Variables (zmienne) and mixins - global settings used by all files */
+@import 'utils/variables';
+@import 'utils/mixins';
+
+/*base*/
+@import 'base/normalize';
+@import 'base/global';
+
+
+/*layout*/
+@import "layout/navbar";
+@import "layout/header";
+@import "layout/about";
+@import "layout/grid";
+@import "layout/feature";
+@import "layout/appointment";
+@import "layout/team";
+@import "layout/contact";
+@import "layout/footer";
+
+
+
+/*components*/
+@import "components/buttons";
+@import "components/fonts";
+@import "components/infobox";
+@import "components/inputs";

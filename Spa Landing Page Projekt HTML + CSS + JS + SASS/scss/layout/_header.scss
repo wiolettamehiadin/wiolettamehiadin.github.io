@@ -1,0 +1,115 @@
+.main-banner {
+    height: 700px;
+    @include flexbox;  //adding flexbox properties
+    @include flex-align(flex-start, center);
+    position: relative;
+
+    /*Header text*/
+
+    .main-banner-subheader {
+        color: $color-font-secondary;
+        text-transform: uppercase;
+        letter-spacing: 2px;
+        font-family: $font-family-secondary;
+        font-weight: 700;
+    }
+
+    h1 {
+        color: #1e2528;
+        font-size: 50px;
+    }
+
+    .main-banner-paragraph {
+        color: $color-font-secondary;
+
+    }
+
+
+    /*Buttons*/
+
+    .main-banner-btn {
+        margin-top: 40px;
+       
+
+        .reserve {
+            display: inline-block;
+            padding: 14px 20px;
+            color: #fff;
+            background-color: $color-main-bg;
+            text-decoration: none;
+
+            /*change btn color after hover*/
+            &:hover {
+                background-color: $color-accent-btn;
+            }
+        }
+
+
+        .watch {
+            color: $color-accent-font;
+            display: inline-block;
+            margin-left: 15px;
+            text-decoration: none;
+
+            i {
+                height: 40px;
+                width: 40px;
+                text-align: center;
+                line-height: 40px;
+                border: 1px solid $color-accent-font;
+                border-radius: 50%;
+                transform: all .3s;
+                margin-left: 15px;
+                margin-right: 5px;
+            }
+        }
+    }
+
+
+
+
+    /*Images on the main banner*/
+    .header-bg-img {
+        position: absolute;
+        top: 0;
+        right: 0;
+        max-width: 30%;
+        z-index: 10000; //image to be ABOVE navbar
+        display: none;
+    }
+
+    .header-flowers {
+        max-width: 8%;
+        position: absolute;
+        left: 0;
+        top: 35%;
+        z-index: -1; //move small image behid h1
+    }
+     /*For the main background image to display on extra-large resolution*/
+    @media all and (min-width: $extra-large) {
+        .header-bg-img {
+            max-width: 40%;
+        }
+    }
+
+    /*For the main background image to display on large resolution*/
+    @media all and (min-width: $large) {
+        .main-banner-holder {
+            width: 60%;
+        }
+
+        .header-bg-img {
+            display: block;
+        }
+    }
+    /*For the main background image to display on extra-small resolution*/
+    @media all and (min-width: $extra-small) {
+        .main-banner-btn {
+            .reserve,
+            .watch {
+                margin: 0;
+            }
+        }
+   }
+}
+
