@@ -20,12 +20,15 @@
 
             .icon-about {
                 color: $color-text-primary;
-                width: 96px;
-                height: 96px;
+                width: $base-font-size * 6;
+                height: $base-font-size * 6;
                 border-radius: 100%;
-                line-height: 96px;
+                line-height: $base-font-size * 4.5;
                 background-color: $color-primary;
                 margin: $margin-none auto $baseline;
+                display: flex;
+                align-items: center;
+                justify-content: center;
             }
         }
 	}
@@ -137,8 +140,8 @@
                 height:100%;
                 opacity: 0;
                 background: $color-portfolio-hover;
-                -webkit-transition: all .35s;
-                -moz-transition: all .35s;
+                -webkit-transition: all 1s;
+                -moz-transition: all 1s;
                 transition: all 1s;
 
                 .portfolio-box-caption-content {
@@ -167,7 +170,7 @@
     }
 
     #counters-services {
-    background-color: $color-background;
+    background-color: $color-top;
     padding: ($baseline * 4) $padding-none $baseline;
 
         .icon-services {
@@ -177,11 +180,11 @@
             border-radius: 100%;
             line-height: $base-font-size * 4.5;
             border: 2px solid $color-primary;
-            transition: all 0.5s;
+            transition: linear 0.5s;
+        }
 
-            &:hover {
-                transform: rotate(-45deg);
-            }
+        .icon-services:hover {
+            transform: rotate(45deg);
         }
 
 
@@ -193,7 +196,8 @@
             }
 
             .divider-light-dark {
-                width: $baseline * 2;
+                width: 25px;
+                opacity: 0.5;
                 margin-left: $padding-none;
                 margin-bottom: 20px;
             }
@@ -241,6 +245,7 @@
 
     #team {
         padding: $baseline $padding-none;
+        background-color: $color-top;
 
         .container {
             margin-top: $baseline * 3;

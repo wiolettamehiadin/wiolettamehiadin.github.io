@@ -83,8 +83,6 @@
 /*==========  1.1 - @import(s)  ==========*/
 @import url(https://fonts.googleapis.com/css?family=Open+Sans:300italic,400italic,600italic,700italic,400,300,600,700&subset=latin,latin-ext);
 @import url(https://fonts.googleapis.com/css?family=Lato:100,300,400,700,100italic,300italic,400italic,700italic&subset=latin,latin-ext);
-@import url(https://fonts.googleapis.com/css2?family=Archivo+Black&display=swap);
-@import url(https://fonts.googleapis.com/css2?family=Archivo+Black&family=Raleway:wght@200&display=swap);
 /***/
 /*==========  1.2 - Fonts  ==========*/
 /***/
@@ -95,6 +93,7 @@
  */
 /* FONT PATH
  * -------------------------- */
+@import url("https://fonts.googleapis.com/css2?family=Archivo+Black&family=Raleway&display=swap");
 @font-face {
   font-family: 'FontAwesome';
   src: url("../fonts/font-awesome/fonts/fontawesome-webfont.eot?v=4.3.0");
@@ -2528,7 +2527,7 @@ dfn {
 
 h1 {
   margin: .67em 0;
-  font-size: 1em;
+  font-size: 2em;
 }
 
 mark {
@@ -9691,6 +9690,7 @@ button.close {
 
 .carousel-caption .btn {
   text-shadow: none;
+  font-size: 22px;
 }
 
 @media screen and (min-width: 768px) {
@@ -10204,7 +10204,7 @@ dfn {
  * contexts in Firefox 4+, Safari, and Chrome.
  */
 h1 {
-  font-size: 1em;
+  font-size: 2em;
   margin: 0.67em 0;
 }
 
@@ -10492,19 +10492,19 @@ body {
   -webkit-font-smoothing: antialiased;
   font-size: 16px;
   color: #5b5b5b;
-  font-family: "Raleway";
+  font-family: "Raleway", sans-serif;
 }
 
 body a, body input, body p {
-  font-family: "Raleway";
+  font-family: "Raleway", sans-serif;
 }
 
 body h1, body h2, body h3, body h4, body h5, body h6 {
   text-transform: uppercase;
   color: #222222;
-  font-family: "Archivo Black";
-  margin-bottom: 16px;
-  margin-top: 16px;
+  font-family: "Archivo Black", sans-serif;
+  margin-bottom: 24px;
+  margin-top: 24px;
 }
 
 body h1 {
@@ -10563,7 +10563,7 @@ body ul li a {
 }
 
 p {
-  margin-bottom: 16px;
+  margin-bottom: 24px;
 }
 
 p a {
@@ -10628,16 +10628,16 @@ header.header-image .header-content {
 header.header-image .header-content .header-content-inner h2 {
   color: #ffffff;
   font-size: 11.2px;
-  margin-bottom: 8px;
-  margin-top: 8px;
+  margin-bottom: 12px;
+  margin-top: 12px;
 }
 
 header.header-image .header-content .header-content-inner h5 {
   color: #ffffff;
   text-transform: capitalize;
   font-size: 9.6px;
-  margin-bottom: 8px;
-  margin-top: 8px;
+  margin-bottom: 12px;
+  margin-top: 12px;
 }
 
 @media (min-width: 768px) and (max-width: 992px) {
@@ -10649,13 +10649,13 @@ header.header-image .header-content .header-content-inner h5 {
   }
   header.header-image .header-content .header-content-inner h2 {
     font-size: 39px;
-    margin-bottom: 16px;
-    margin-top: 16px;
+    margin-bottom: 24px;
+    margin-top: 24px;
   }
   header.header-image .header-content .header-content-inner h5 {
     font-size: 20px;
-    margin-bottom: 16px;
-    margin-top: 16px;
+    margin-bottom: 24px;
+    margin-top: 24px;
   }
 }
 
@@ -10668,13 +10668,13 @@ header.header-image .header-content .header-content-inner h5 {
   }
   header.header-image .header-content .header-content-inner h2 {
     font-size: 39px;
-    margin-bottom: 16px;
-    margin-top: 16px;
+    margin-bottom: 24px;
+    margin-top: 24px;
   }
   header.header-image .header-content .header-content-inner h5 {
     font-size: 20px;
-    margin-bottom: 16px;
-    margin-top: 16px;
+    margin-bottom: 24px;
+    margin-top: 24px;
   }
 }
 
@@ -10782,7 +10782,7 @@ header.header-image .header-content .header-content-inner h5 {
   font-weight: 700;
   text-transform: uppercase;
   background-color: #ffffff;
-  font-family: "Raleway";
+  font-family: "Raleway", sans-serif;
   margin-left: 10px;
   padding-bottom: 10px;
   padding-top: 10px;
@@ -10806,7 +10806,7 @@ header.header-image .header-content .header-content-inner h5 {
   font-size: 13px;
   font-weight: 700;
   text-transform: uppercase;
-  font-family: "Raleway";
+  font-family: "Raleway", sans-serif;
 }
 
 .navbar-default .navbar-nav .open .dropdown-menu > li > a:hover, .navbar-default .navbar-nav .open .dropdown-menu > li > a:focus {
@@ -10903,7 +10903,7 @@ header.header-image .header-content .header-content-inner h5 {
     font-weight: 700;
     text-transform: uppercase;
     background-color: #ffffff;
-    font-family: "Raleway";
+    font-family: "Raleway", sans-serif;
     padding-top: 16px;
     padding-bottom: 16px;
     margin-left: 0;
@@ -10920,7 +10920,7 @@ header.header-image .header-content .header-content-inner h5 {
     font-size: 13px;
     font-weight: 700;
     text-transform: uppercase;
-    font-family: "Raleway";
+    font-family: "Raleway", sans-serif;
   }
   .navbar-default .navbar-nav .open .dropdown-menu > li > a:hover, .navbar-default .navbar-nav .open .dropdown-menu > li > a:focus {
     background-color: #ffffff;
@@ -10966,7 +10966,7 @@ header.header-image .header-content .header-content-inner h5 {
     font-size: 13px;
     font-weight: 700;
     text-transform: uppercase;
-    font-family: "Raleway";
+    font-family: "Raleway", sans-serif;
   }
   .navbar-default.affix .open .dropdown-menu > li > a:hover, .navbar-default.affix .open .dropdown-menu > li > a:focus {
     background-color: #ffffff;
@@ -11012,11 +11012,11 @@ header.header-image .header-content .header-content-inner h5 {
 /***/
 /*==========  4.4 - Sidebar styles  ==========*/
 .t108-sidebar {
-  margin-top: 64px;
+  margin-top: 96px;
 }
 
 .t108-sidebar h6 {
-  margin-top: 32px;
+  margin-top: 48px;
 }
 
 .t108-sidebar a {
@@ -11078,8 +11078,8 @@ header.header-image .header-content .header-content-inner h5 {
   background-color: #a5e200;
   width: 40px;
   height: 40px;
-  font-size: 16px;
-  font-family: "Raleway";
+  font-size: 32px;
+  font-family: "Raleway", sans-serif;
   line-height: 35.2px;
   margin: 0;
   z-index: 11;
@@ -11119,20 +11119,20 @@ header.header-image .header-content .header-content-inner h5 {
 }
 
 #main-slider .carousel-caption h1 {
-  font-size: 48px;
-  margin-top: 16px;
-  margin-bottom: 16px;
-  text-transform: uppercase;
+  font-size: 38px;
+  letter-spacing: 4px;
+  margin-top: 24px;
+  margin-bottom: 24px;
 }
 
 #main-slider .carousel-caption p {
   font-size: 20px;
-  margin-bottom: 16px;
+  margin-bottom: 24px;
 }
 
 #main-slider .carousel-caption .btn-primary {
-  margin-top: 32px;
-  font-size: 14px;
+  margin-top: 24px;
+  font-size: 22px;
   padding: 10px 12px;
 }
 
@@ -11149,20 +11149,21 @@ header.header-image .header-content .header-content-inner h5 {
   }
   #main-slider .carousel-caption p, #main-slider .carousel-caption h1 {
     color: #ffffff;
-    text-transform: capitalize;
+    text-transform: uppercase;
   }
   #main-slider .carousel-caption h1 {
-    font-size: 36px;
-    margin-top: 16px;
-    margin-bottom: 16px;
+    font-size: 31px;
+    letter-spacing: 4px;
+    margin-top: 24px;
+    margin-bottom: 24px;
   }
   #main-slider .carousel-caption p {
     font-size: 20px;
-    margin-bottom: 16px;
+    margin-bottom: 24px;
   }
   #main-slider .carousel-caption .btn-primary {
-    margin-top: 32px;
-    font-size: 14px;
+    margin-top: 24px;
+    font-size: 22px;
     padding: 10px 12px;
   }
   #main-slider .icon-prev, #main-slider .icon-next {
@@ -11179,19 +11180,20 @@ header.header-image .header-content .header-content-inner h5 {
   }
   #main-slider .carousel-caption p, #main-slider .carousel-caption h1 {
     color: #ffffff;
-    text-transform: capitalize;
+    text-transform: uppercase;
   }
   #main-slider .carousel-caption h1 {
     font-size: 26px;
-    margin-top: 16px;
-    margin-bottom: 16px;
+    letter-spacing: 4px;
+    margin-top: 24px;
+    margin-bottom: 24px;
   }
   #main-slider .carousel-caption p {
     font-size: 16px;
-    margin-bottom: 16px;
+    margin-bottom: 24px;
   }
   #main-slider .carousel-caption .btn-primary {
-    margin-top: 16px;
+    margin-top: 24px;
     font-size: 14px;
     padding: 10px 12px;
   }
@@ -11209,19 +11211,20 @@ header.header-image .header-content .header-content-inner h5 {
   }
   #main-slider .carousel-caption p, #main-slider .carousel-caption h1 {
     color: #ffffff;
-    text-transform: capitalize;
+    text-transform: uppercase;
   }
   #main-slider .carousel-caption h1 {
     font-size: 21px;
-    margin-top: 12px;
-    margin-bottom: 12px;
+    letter-spacing: 4px;
+    margin-top: 18px;
+    margin-bottom: 18px;
   }
   #main-slider .carousel-caption p {
     font-size: 14px;
-    margin-bottom: 8px;
+    margin-bottom: 12px;
   }
   #main-slider .carousel-caption .btn-primary {
-    margin-top: 8px;
+    margin-top: 12px;
     font-size: 14px;
     padding: 5px 6px;
   }
@@ -11239,10 +11242,11 @@ header.header-image .header-content .header-content-inner h5 {
   }
   #main-slider .carousel-caption p, #main-slider .carousel-caption h1 {
     color: #ffffff;
-    text-transform: capitalize;
+    text-transform: uppercase;
   }
   #main-slider .carousel-caption h1 {
     font-size: 18px;
+    letter-spacing: 4px;
     margin-top: 0;
     margin-bottom: 0;
   }
@@ -11274,10 +11278,11 @@ header.header-image .header-content .header-content-inner h5 {
   }
   #main-slider .carousel-caption p, #main-slider .carousel-caption h1 {
     color: #ffffff;
-    text-transform: capitalize;
+    text-transform: uppercase;
   }
   #main-slider .carousel-caption h1 {
     font-size: 12px;
+    letter-spacing: 4px;
     margin-top: 0;
     margin-bottom: 0;
   }
@@ -11302,7 +11307,7 @@ header.header-image .header-content .header-content-inner h5 {
 
 #slider-testimonials {
   min-height: 500px;
-  background-color: #f0f4dc;
+  background-color: #f7f7f7;
 }
 
 #slider-testimonials .carousel-inner {
@@ -11343,7 +11348,7 @@ header.header-image .header-content .header-content-inner h5 {
     min-height: 400px;
   }
   #slider-testimonials .carousel-caption img {
-    margin-bottom: 16px;
+    margin-bottom: 24px;
   }
   #slider-testimonials .carousel-caption p {
     margin: 0;
@@ -11372,6 +11377,10 @@ header.header-image .header-content .header-content-inner h5 {
   background-color: #222222;
 }
 
+.t108-footer i {
+  font-size: 25px;
+}
+
 .t108-footer .footer-above {
   padding-top: 80px;
 }
@@ -11381,7 +11390,7 @@ header.header-image .header-content .header-content-inner h5 {
 }
 
 .t108-footer .footer-above .footer-col {
-  margin-bottom: 48px;
+  margin-bottom: 72px;
 }
 
 .t108-footer .footer-above .footer-col .contact, .t108-footer .footer-above .footer-col .tweets {
@@ -11463,7 +11472,7 @@ header.header-image .header-content .header-content-inner h5 {
   border-color: #a5e200;
   text-transform: uppercase;
   padding: 10px 12px;
-  margin-bottom: 16px;
+  margin-bottom: 24px;
 }
 
 .btn-primary:hover {
@@ -11505,19 +11514,18 @@ hr {
   border-color: #dddddd;
   border-width: 1px;
   max-width: 100%;
-  margin: 16px auto;
+  margin: 24px auto;
 }
 
 hr.divider-light-dark {
   max-width: 150px;
   border-color: #a5e200;
   border-width: 3px;
-  opacity: 25%;
 }
 
 hr.divider-light {
   border-color: #ffffff;
-  max-width: 52.8px;
+  max-width: 150px;
   border-width: 3px;
 }
 
@@ -11531,12 +11539,12 @@ form fieldset {
 
 form fieldset p {
   margin-bottom: 0;
-  margin-top: 16px;
+  margin-top: 24px;
 }
 
 form fieldset input[type="text"] {
   width: 100%;
-  height: 32px;
+  height: 48px;
   border: 1px solid #dddddd;
 }
 
@@ -11546,8 +11554,8 @@ form fieldset input[type="text"]:active, form fieldset input[type="text"]:hover,
 }
 
 form fieldset input[name="comment"], form fieldset input[name="message"] {
-  height: 112px;
-  margin-bottom: 24px;
+  height: 168px;
+  margin-bottom: 36px;
 }
 
 /***/
@@ -11583,21 +11591,21 @@ form fieldset input[name="comment"], form fieldset input[name="message"] {
 /***/
 /*==========  6.1 - Theme styles  ==========*/
 .t108-page {
-  margin-top: 64px;
-  margin-bottom: 64px;
+  margin-top: 96px;
+  margin-bottom: 96px;
   margin-left: auto;
   margin-right: auto;
 }
 
 .t108-page time {
   font-size: 20px;
-  font-family: "Archivo Black";
+  font-family: "Archivo Black", sans-serif;
   color: #222222;
   text-transform: uppercase;
 }
 
 .t108-page figure {
-  margin: 64px 0 16px;
+  margin: 96px 0 24px;
 }
 
 .t108-page .divider-light-dark {
@@ -11606,8 +11614,8 @@ form fieldset input[name="comment"], form fieldset input[name="message"] {
 
 .t108-page .meta {
   font-size: 12px;
-  margin-top: 16px;
-  margin-bottom: 16px;
+  margin-top: 24px;
+  margin-bottom: 24px;
 }
 
 .t108-page .meta a {
@@ -11617,14 +11625,14 @@ form fieldset input[name="comment"], form fieldset input[name="message"] {
 @media (min-width: 768px) {
   .t108-page .meta {
     font-size: 16px;
-    margin-top: 16px;
-    margin-bottom: 16px;
+    margin-top: 24px;
+    margin-bottom: 24px;
   }
 }
 
 @media (max-width: 768px) {
   .t108-page {
-    margin-top: 32px;
+    margin-top: 48px;
   }
 }
 
@@ -11640,7 +11648,7 @@ form fieldset input[name="comment"], form fieldset input[name="message"] {
 
 #blog .pager {
   margin-bottom: 0;
-  margin-top: 32px;
+  margin-top: 48px;
 }
 
 #blog .pager a {
@@ -11649,7 +11657,7 @@ form fieldset input[name="comment"], form fieldset input[name="message"] {
   background-color: #ffffff;
   border-radius: 4px;
   padding: 6px 12px;
-  width: 72px;
+  width: 108px;
 }
 
 #blog .pager a:hover {
@@ -11659,7 +11667,7 @@ form fieldset input[name="comment"], form fieldset input[name="message"] {
 }
 
 #blog .btn-primary {
-  margin-bottom: 32px;
+  margin-bottom: 48px;
 }
 
 /***/
@@ -11669,12 +11677,12 @@ form fieldset input[name="comment"], form fieldset input[name="message"] {
 }
 
 .t108-one-page #about {
-  margin-top: 64px;
-  padding: 64px 0;
+  margin-top: 96px;
+  padding: 96px 0;
 }
 
 .t108-one-page #about .about-box {
-  margin: 48px auto 0;
+  margin: 72px auto 0;
 }
 
 .t108-one-page #about .about-box p {
@@ -11683,17 +11691,20 @@ form fieldset input[name="comment"], form fieldset input[name="message"] {
 
 .t108-one-page #about .about-box .icon-about {
   color: #ffffff;
-  width: 72px;
-  height: 72px;
+  width: 96px;
+  height: 96px;
   border-radius: 100%;
   line-height: 72px;
   background-color: #a5e200;
-  margin: 0 auto 16px;
+  margin: 0 auto 24px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
 }
 
 @media (max-width: 768px) {
   .t108-one-page #about {
-    margin-top: 40px;
+    margin-top: 60px;
   }
 }
 
@@ -11701,7 +11712,7 @@ form fieldset input[name="comment"], form fieldset input[name="message"] {
   height: auto;
   width: 100%;
   position: relative;
-  padding: 64px 0;
+  padding: 96px 0;
 }
 
 .t108-one-page #counters-numbers .container, .t108-one-page #counters-progress .container {
@@ -11714,7 +11725,7 @@ form fieldset input[name="comment"], form fieldset input[name="message"] {
 }
 
 .t108-one-page #counters-numbers .container .counters-box, .t108-one-page #counters-progress .container .counters-box {
-  margin: 48px auto 0;
+  margin: 72px auto 0;
 }
 
 .t108-one-page #counters-numbers .container .counters-box h1, .t108-one-page #counters-progress .container .counters-box h1 {
@@ -11729,7 +11740,7 @@ form fieldset input[name="comment"], form fieldset input[name="message"] {
 .t108-one-page #counters-numbers .container .counters-box p, .t108-one-page #counters-progress .container .counters-box p {
   margin-bottom: 0;
   color: #ffffff;
-  margin: 16px auto;
+  margin: 24px auto;
 }
 
 .t108-one-page #counters-numbers .container .counters-box .text-primary, .t108-one-page #counters-progress .container .counters-box .text-primary {
@@ -11747,7 +11758,7 @@ form fieldset input[name="comment"], form fieldset input[name="message"] {
 }
 
 .t108-one-page #counters-progress hr {
-  margin-bottom: 16px;
+  margin-bottom: 24px;
 }
 
 .t108-one-page #counters-progress .counters-box div {
@@ -11795,7 +11806,7 @@ form fieldset input[name="comment"], form fieldset input[name="message"] {
   height: 100%;
   opacity: 0;
   background: rgba(34, 34, 34, 0.8);
-  transition: all .35s;
+  transition: all 1s;
 }
 
 .t108-one-page #portfolio .portfolio-box .portfolio-box-caption .portfolio-box-caption-content {
@@ -11821,7 +11832,7 @@ form fieldset input[name="comment"], form fieldset input[name="message"] {
 
 .t108-one-page #counters-services {
   background-color: #f0f4dc;
-  padding: 64px 0 16px;
+  padding: 96px 0 24px;
 }
 
 .t108-one-page #counters-services .icon-services {
@@ -11831,10 +11842,15 @@ form fieldset input[name="comment"], form fieldset input[name="message"] {
   border-radius: 100%;
   line-height: 72px;
   border: 2px solid #a5e200;
+  transition: linear 0.5s;
+}
+
+.t108-one-page #counters-services .icon-services:hover {
+  transform: rotate(45deg);
 }
 
 .t108-one-page #counters-services .counters-box {
-  margin: 0 auto 48px;
+  margin: 0 auto 72px;
 }
 
 .t108-one-page #counters-services .counters-box p {
@@ -11842,7 +11858,8 @@ form fieldset input[name="comment"], form fieldset input[name="message"] {
 }
 
 .t108-one-page #counters-services .counters-box .divider-light-dark {
-  width: 32px;
+  width: 25px;
+  opacity: 0.5;
   margin-left: 0;
   margin-bottom: 20px;
 }
@@ -11858,7 +11875,7 @@ form fieldset input[name="comment"], form fieldset input[name="message"] {
 }
 
 .t108-one-page #services {
-  padding: 64px 0;
+  padding: 96px 0;
 }
 
 .t108-one-page #services .thumbnail {
@@ -11866,7 +11883,7 @@ form fieldset input[name="comment"], form fieldset input[name="message"] {
   border: none;
   border-radius: 0;
   margin-bottom: 0;
-  margin-top: 48px;
+  margin-top: 72px;
 }
 
 .t108-one-page #services .thumbnail .caption {
@@ -11882,11 +11899,12 @@ form fieldset input[name="comment"], form fieldset input[name="message"] {
 }
 
 .t108-one-page #team {
-  padding: 16px 0;
+  padding: 24px 0;
+  background-color: #f0f4dc;
 }
 
 .t108-one-page #team .container {
-  margin-top: 48px;
+  margin-top: 72px;
 }
 
 .t108-one-page #team .container img {
@@ -11895,7 +11913,7 @@ form fieldset input[name="comment"], form fieldset input[name="message"] {
 }
 
 .t108-one-page #team .container ul.social-buttons {
-  margin: 32px auto 48px;
+  margin: 48px auto 72px;
 }
 
 .t108-one-page #team .container ul.social-buttons li a {
@@ -11916,7 +11934,7 @@ form fieldset input[name="comment"], form fieldset input[name="message"] {
 
 @media (max-width: 768px) {
   .t108-one-page #team .container ul.social-buttons {
-    margin-top: 16px;
+    margin-top: 24px;
   }
 }
 
@@ -11927,16 +11945,16 @@ form fieldset input[name="comment"], form fieldset input[name="message"] {
 }
 
 #single-post .img-circle {
-  width: 48px;
-  height: 48px;
+  width: 72px;
+  height: 72px;
 }
 
 #single-post .comment {
-  margin-bottom: 48px;
+  margin-bottom: 72px;
 }
 
 #single-post .comment h6 {
-  margin-bottom: 32px;
+  margin-bottom: 48px;
 }
 
 #single-post .comment hr {
@@ -11944,7 +11962,7 @@ form fieldset input[name="comment"], form fieldset input[name="message"] {
 }
 
 #single-post .comment p {
-  margin-top: 16px;
+  margin-top: 24px;
 }
 
 #single-post .comment p .fa-fw {
@@ -11974,13 +11992,13 @@ form fieldset input[name="comment"], form fieldset input[name="message"] {
 }
 
 #error-404 .background-error {
-  background-color: #f0f4dc;
+  background-color: #f7f7f7;
 }
 
 #error-404 h1 {
   font-size: 160px;
   color: #dddddd;
-  margin-top: 32px;
+  margin-top: 48px;
 }
 
 #error-404 h4 {
@@ -11991,15 +12009,15 @@ form fieldset input[name="comment"], form fieldset input[name="message"] {
   #error-404 h1 {
     font-size: 216px;
     color: #dddddd;
-    margin-top: 80px;
+    margin-top: 120px;
   }
   #error-404 h4 {
-    margin-top: 64px;
+    margin-top: 96px;
   }
 }
 
 #error-404 h3 {
-  margin: 32px auto;
+  margin: 48px auto;
 }
 
 #error-404 h5 {
@@ -12008,7 +12026,7 @@ form fieldset input[name="comment"], form fieldset input[name="message"] {
 }
 
 #error-404 form {
-  margin: 32px auto 48px;
+  margin: 48px auto 72px;
   border-radius: 5px;
   font-size: 18px;
 }
@@ -12026,7 +12044,7 @@ form fieldset input[name="comment"], form fieldset input[name="message"] {
   border: 1px solid #dddddd;
   border-right: 0;
   box-shadow: none;
-  height: 32px;
+  height: 48px;
 }
 
 #error-404 form .submit {
@@ -12036,7 +12054,7 @@ form fieldset input[name="comment"], form fieldset input[name="message"] {
 
 #error-404 form .submit input[type="submit"] {
   width: 100%;
-  height: 32px;
+  height: 48px;
   color: #ffffff;
   border-radius: 0px 8px 8px 0px;
   -moz-border-radius: 0px 8px 8px 0px;
@@ -12052,7 +12070,7 @@ form fieldset input[name="comment"], form fieldset input[name="message"] {
 
 @media (min-width: 768px) {
   #error-404 form {
-    margin: 32px auto 48px;
+    margin: 48px auto 72px;
     border-radius: 5px;
     font-size: 18px;
   }
@@ -12065,14 +12083,14 @@ form fieldset input[name="comment"], form fieldset input[name="message"] {
     -webkit-border-radius: 8px 0px 0px 8px;
     border: 1px solid #dddddd;
     border-right: 0;
-    height: 32px;
+    height: 48px;
   }
   #error-404 form .submit {
     padding-left: 0;
   }
   #error-404 form .submit input[type="submit"] {
     width: 100%;
-    height: 32px;
+    height: 48px;
     color: #ffffff;
     border-radius: 0px 8px 8px 0px;
     -moz-border-radius: 0px 8px 8px 0px;
@@ -12088,14 +12106,14 @@ form fieldset input[name="comment"], form fieldset input[name="message"] {
 
 #error-404 a {
   font-size: 20px;
-  height: 16px;
+  height: 24px;
   text-decoration: none;
 }
 
 #error-404 a .fa {
   font-size: 16px;
   line-height: 3;
-  letter-spacing: 4px;
+  letter-spacing: 5px;
 }
 
 @media (min-width: 768px) and (max-width: 992px) {
@@ -12115,7 +12133,7 @@ form fieldset input[name="comment"], form fieldset input[name="message"] {
 }
 
 #contact h5 {
-  margin-top: 48px;
+  margin-top: 72px;
 }
 
 #contact a {
@@ -12129,11 +12147,11 @@ form fieldset input[name="comment"], form fieldset input[name="message"] {
 
 #contact p {
   margin-bottom: 0;
-  margin-top: 16px;
+  margin-top: 24px;
 }
 
 #contact .fa {
-  margin-top: 16px;
+  margin-top: 24px;
   font-size: 16px;
   color: #a5e200;
 }
@@ -12151,27 +12169,27 @@ form fieldset input[name="comment"], form fieldset input[name="message"] {
 }
 
 #typography h4 {
-  margin-top: 64px;
+  margin-top: 96px;
 }
 
 #typography .divider-light-dark {
   margin-left: auto;
   margin-right: auto;
-  margin-bottom: 32px;
+  margin-bottom: 48px;
 }
 
 #typography .heading-uppercase h1, #typography .heading-uppercase h2, #typography .heading-uppercase h3, #typography .heading-uppercase h4, #typography .heading-uppercase h5, #typography .heading-uppercase h6 {
-  margin-top: 16px;
-  margin-bottom: 16px;
+  margin-top: 24px;
+  margin-bottom: 24px;
 }
 
 #typography .heading-normal {
-  margin-bottom: 16px;
+  margin-bottom: 24px;
 }
 
 #typography .heading-normal h1, #typography .heading-normal h2, #typography .heading-normal h3, #typography .heading-normal h4, #typography .heading-normal h5, #typography .heading-normal h6 {
-  margin-top: 16px;
-  margin-bottom: 16px;
+  margin-top: 24px;
+  margin-bottom: 24px;
   text-transform: none;
 }
 
@@ -12194,8 +12212,8 @@ form fieldset input[name="comment"], form fieldset input[name="message"] {
 }
 
 #typography .blockquotes .other-styles {
-  margin-top: 16px;
-  margin-bottom: 32px;
+  margin-top: 24px;
+  margin-bottom: 48px;
 }
 
 #typography .blockquotes .other-styles p {
@@ -12215,8 +12233,8 @@ form fieldset input[name="comment"], form fieldset input[name="message"] {
 }
 
 #typography .typography-highlights {
-  margin-top: 16px;
-  margin-bottom: 16px;
+  margin-top: 24px;
+  margin-bottom: 24px;
 }
 
 #typography .typography-highlights .highlights-black {
@@ -12235,7 +12253,7 @@ form fieldset input[name="comment"], form fieldset input[name="message"] {
 }
 
 #typography .typography-full {
-  margin-top: 16px;
+  margin-top: 24px;
 }
 
 @media (min-width: 768px) {
@@ -12251,13 +12269,13 @@ form fieldset input[name="comment"], form fieldset input[name="message"] {
 }
 
 #columns h4 {
-  margin-top: 64px;
+  margin-top: 96px;
 }
 
 #columns .divider-light-dark {
   margin-left: auto;
   margin-right: auto;
-  margin-bottom: 32px;
+  margin-bottom: 48px;
 }
 
 @media (min-width: 768px) {
@@ -12273,18 +12291,18 @@ form fieldset input[name="comment"], form fieldset input[name="message"] {
 }
 
 #common-elements h4 {
-  margin-top: 64px;
+  margin-top: 96px;
 }
 
 #common-elements .divider-light-dark {
   margin-left: auto;
   margin-right: auto;
-  margin-bottom: 32px;
+  margin-bottom: 48px;
 }
 
 #common-elements .font-awesome {
-  margin-bottom: 16px;
-  margin-top: 16px;
+  margin-bottom: 24px;
+  margin-top: 24px;
 }
 
 #common-elements .font-awesome .fa {
@@ -12292,8 +12310,8 @@ form fieldset input[name="comment"], form fieldset input[name="message"] {
 }
 
 #common-elements .toggles {
-  margin-bottom: 16px;
-  margin-top: 16px;
+  margin-bottom: 24px;
+  margin-top: 24px;
 }
 
 #common-elements .toggles .panel-default {
@@ -12321,8 +12339,8 @@ form fieldset input[name="comment"], form fieldset input[name="message"] {
 }
 
 #common-elements .tabs {
-  margin-bottom: 16px;
-  margin-top: 16px;
+  margin-bottom: 24px;
+  margin-top: 24px;
 }
 
 #common-elements .tabs ul {
@@ -12343,15 +12361,15 @@ form fieldset input[name="comment"], form fieldset input[name="message"] {
 }
 
 #common-elements .messages-boxes {
-  margin-bottom: 16px;
-  margin-top: 16px;
+  margin-bottom: 24px;
+  margin-top: 24px;
 }
 
 #common-elements .messages-boxes .panel {
   box-shadow: none;
   border-radius: 0px;
-  height: 48px;
-  line-height: 24px;
+  height: 72px;
+  line-height: 36px;
   font-size: 8px;
 }
 
@@ -12378,7 +12396,7 @@ form fieldset input[name="comment"], form fieldset input[name="message"] {
 }
 
 #common-elements .list-elements {
-  margin-top: 16px;
+  margin-top: 24px;
 }
 
 #common-elements .list-elements .fa {
@@ -12400,17 +12418,17 @@ form fieldset input[name="comment"], form fieldset input[name="message"] {
 }
 
 #icon-variants h4 {
-  margin-top: 64px;
+  margin-top: 96px;
 }
 
 #icon-variants .divider-light-dark {
   margin-left: auto;
   margin-right: auto;
-  margin-bottom: 32px;
+  margin-bottom: 48px;
 }
 
 #icon-variants .about-columns {
-  margin-bottom: 32px;
+  margin-bottom: 48px;
 }
 
 #icon-variants .about-columns .icon-about-blue, #icon-variants .about-columns .icon-about-bright, #icon-variants .about-columns .icon-about-dark {
@@ -12419,7 +12437,7 @@ form fieldset input[name="comment"], form fieldset input[name="message"] {
   border-radius: 100%;
   line-height: 72px;
   color: #ffffff;
-  margin: 32px auto 16px;
+  margin: 48px auto 24px;
 }
 
 #icon-variants .about-columns .icon-about-blue {
@@ -12439,7 +12457,7 @@ form fieldset input[name="comment"], form fieldset input[name="message"] {
 }
 
 #icon-variants .gallery-columns {
-  margin-top: 32px;
+  margin-top: 48px;
 }
 
 #icon-variants .gallery-columns .icon-services-blue, #icon-variants .gallery-columns .icon-services-bright, #icon-variants .gallery-columns .icon-services-dark {
@@ -12465,10 +12483,10 @@ form fieldset input[name="comment"], form fieldset input[name="message"] {
 }
 
 #icon-variants .gallery-columns .divider-light-blue, #icon-variants .gallery-columns .divider-light-bright, #icon-variants .gallery-columns .divider-light-dark {
-  width: 32px;
+  width: 48px;
   margin-left: 0;
   margin-bottom: 20px;
-  max-width: 52.8px;
+  max-width: 79.2px;
   border-width: 3px;
 }
 
@@ -12507,18 +12525,18 @@ form fieldset input[name="comment"], form fieldset input[name="message"] {
 }
 
 #interactive-elements h4 {
-  margin-top: 64px;
+  margin-top: 96px;
 }
 
 #interactive-elements .divider-light-dark {
   margin-left: auto;
   margin-right: auto;
-  margin-bottom: 32px;
+  margin-bottom: 48px;
 }
 
 #interactive-elements #counters-numbers .counters-box, #interactive-elements #counters-progress .counters-box {
-  margin-top: 32px;
-  margin-bottom: 32px;
+  margin-top: 48px;
+  margin-bottom: 48px;
 }
 
 #interactive-elements #counters-numbers .counters-box .fa, #interactive-elements #counters-progress .counters-box .fa {
@@ -12536,11 +12554,11 @@ form fieldset input[name="comment"], form fieldset input[name="message"] {
 }
 
 #interactive-elements #buttons h6 {
-  margin-bottom: 32px;
+  margin-bottom: 48px;
 }
 
 #interactive-elements #buttons .buttons-round {
-  margin-top: 16px;
+  margin-top: 24px;
 }
 
 #interactive-elements #buttons .buttons-round h6 {
@@ -12555,8 +12573,8 @@ form fieldset input[name="comment"], form fieldset input[name="message"] {
 
 @media (max-width: 768px) {
   #interactive-elements #buttons .buttons-round h6 {
-    margin-top: 12px;
-    margin-bottom: 12px;
+    margin-top: 18px;
+    margin-bottom: 18px;
   }
 }
 
@@ -12571,11 +12589,11 @@ form fieldset input[name="comment"], form fieldset input[name="message"] {
 }
 
 #interactive-elements #buttons .buttons-round .btn-primary {
-  width: 104px;
+  width: 156px;
 }
 
 #interactive-elements #buttons .buttons-round .btn-success {
-  width: 88px;
+  width: 132px;
   font-size: 13px;
 }
 
@@ -12592,15 +12610,15 @@ form fieldset input[name="comment"], form fieldset input[name="message"] {
 @media (max-width: 768px) {
   #interactive-elements #buttons .buttons-round {
     text-align: center;
-    margin-bottom: 16px;
+    margin-bottom: 24px;
   }
   #interactive-elements #buttons .buttons-round .buttons-hover {
-    margin-top: 16px;
+    margin-top: 24px;
   }
 }
 
 #interactive-elements #buttons .rectangle-buttons {
-  margin-top: 16px;
+  margin-top: 24px;
 }
 
 #interactive-elements #buttons .rectangle-buttons h6 {
@@ -12615,8 +12633,8 @@ form fieldset input[name="comment"], form fieldset input[name="message"] {
 
 @media (max-width: 768px) {
   #interactive-elements #buttons .rectangle-buttons h6 {
-    margin-top: 12px;
-    margin-bottom: 12px;
+    margin-top: 18px;
+    margin-bottom: 18px;
   }
 }
 
@@ -12632,11 +12650,11 @@ form fieldset input[name="comment"], form fieldset input[name="message"] {
 }
 
 #interactive-elements #buttons .rectangle-buttons .btn-primary {
-  width: 104px;
+  width: 156px;
 }
 
 #interactive-elements #buttons .rectangle-buttons .btn-success {
-  width: 88px;
+  width: 132px;
   font-size: 13px;
 }
 
@@ -12655,10 +12673,10 @@ form fieldset input[name="comment"], form fieldset input[name="message"] {
   #interactive-elements #buttons .rectangle-buttons {
     margin-top: 0;
     text-align: center;
-    margin-bottom: 16px;
+    margin-bottom: 24px;
   }
   #interactive-elements #buttons .rectangle-buttons .buttons-hover {
-    margin-top: 16px;
+    margin-top: 24px;
   }
 }
 
@@ -12675,17 +12693,17 @@ form fieldset input[name="comment"], form fieldset input[name="message"] {
 }
 
 #media h4 {
-  margin-top: 64px;
+  margin-top: 96px;
 }
 
 #media .divider-light-dark {
   margin-left: auto;
   margin-right: auto;
-  margin-bottom: 32px;
+  margin-bottom: 48px;
 }
 
 #media .media {
-  margin-top: 16px;
+  margin-top: 24px;
 }
 
 #media .media figure {
@@ -12711,7 +12729,7 @@ form fieldset input[name="comment"], form fieldset input[name="message"] {
   width: 260px;
   padding: 0;
   border: 0px;
-  background-color: #f0f4dc;
+  background-color: #f7f7f7;
   color: #5b5b5b;
   margin-bottom: 0;
 }
